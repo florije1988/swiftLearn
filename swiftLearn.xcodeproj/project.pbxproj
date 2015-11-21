@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7AD5B2FC0F28E3AE5FF48D1B /* inheritTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD5B2C4F56B9AD75126E821 /* inheritTest.swift */; };
+		7AD5BE6A49CC694E558B48BC /* initializeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD5BA30396C3443EB27E94E /* initializeTest.swift */; };
 		D25899E483B7115E73618E30 /* subscriptTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2589B4B182053B3509CA035 /* subscriptTest.swift */; };
 		D2589D99558872D9EB2C0F7C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258943109CCD08534981EF6 /* main.swift */; };
 /* End PBXBuildFile section */
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		7AD5B2C4F56B9AD75126E821 /* inheritTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = inheritTest.swift; sourceTree = "<group>"; };
+		7AD5BA30396C3443EB27E94E /* initializeTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = initializeTest.swift; sourceTree = "<group>"; };
 		D258943109CCD08534981EF6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D2589B4B182053B3509CA035 /* subscriptTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = subscriptTest.swift; sourceTree = "<group>"; };
 		D2589FFD57BA8C1BC9EF0A33 /* swiftLearn */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = swiftLearn; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +66,7 @@
 				D258943109CCD08534981EF6 /* main.swift */,
 				D2589B4B182053B3509CA035 /* subscriptTest.swift */,
 				7AD5B2C4F56B9AD75126E821 /* inheritTest.swift */,
+				7AD5BA30396C3443EB27E94E /* initializeTest.swift */,
 			);
 			path = swiftLearn;
 			sourceTree = "<group>";
@@ -121,6 +124,7 @@
 				D2589D99558872D9EB2C0F7C /* main.swift in Sources */,
 				D25899E483B7115E73618E30 /* subscriptTest.swift in Sources */,
 				7AD5B2FC0F28E3AE5FF48D1B /* inheritTest.swift in Sources */,
+				7AD5BE6A49CC694E558B48BC /* initializeTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

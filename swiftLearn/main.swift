@@ -44,3 +44,27 @@ kingSon.name = "002"
 kingSon.company = "0020"
 kingSon.money = 2000
 kingSon.say()
+
+//蓝翔
+var oldCoder = Student(name: "haha", field: "xijianchui", money: 250)
+var student1 = Student()
+
+var lanXiangTecSchool = TechnicalSchool()
+var laoLuoTecSchool = TechnicalSchool(name: "北京老罗技校", location: "北京", topField: "锤子挖掘机", advertisement: "三倍情怀!")
+var feeForOldCoder = LanXiangFee(money: oldCoder.money)
+if feeForOldCoder == nil {
+    print("you a refused by lanxiang.")
+    laoLuoTecSchool.receive(oldCoder)
+} else {
+    lanXiangTecSchool.receive(oldCoder)
+}
+
+var lanXiangTecSchoolNew = TechnicalSchool(has3IDCard: true)
+if lanXiangTecSchoolNew == nil {
+    print("can not create lanXiangTecSchoolNew")
+}
+
+lanXiangTecSchoolNew = TechnicalSchool(isRumor: true)
+if lanXiangTecSchoolNew != nil {
+    print("create lanXiangTecSchoolNew")
+}
