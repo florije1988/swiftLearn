@@ -72,3 +72,16 @@ if lanXiangTecSchoolNew != nil {
 var weatherReport: WeatherReport? = WeatherReport(location: "Beijing", weather: "duoyun")
 print("\(weatherReport!.reports())")
 weatherReport = nil
+
+let john = Person()
+//if let someToy = john.pet?.favoriteToy?.name {
+//    print(someToy)
+//} else {
+//    print("no toy.")
+//}
+
+if let toysNumber = john.pet?.numberOfToys {
+    print("john's pet has \(toysNumber) toys.")
+} else {
+    print("john has no toy.")
+}
