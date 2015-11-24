@@ -68,3 +68,7 @@ lanXiangTecSchoolNew = TechnicalSchool(isRumor: true)
 if lanXiangTecSchoolNew != nil {
     print("create lanXiangTecSchoolNew")
 }
+
+var weatherReport: WeatherReport? = WeatherReport(location: "Beijing", weather: "duoyun")
+print("\(weatherReport!.reports())")
+weatherReport = nil
