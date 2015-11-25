@@ -11,6 +11,7 @@
 		7AD5B2FC0F28E3AE5FF48D1B /* inheritTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD5B2C4F56B9AD75126E821 /* inheritTest.swift */; };
 		7AD5B6D9D68E949EC0C6C3A3 /* optionalChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD5BF10818B33E02C50937D /* optionalChain.swift */; };
 		7AD5BE6A49CC694E558B48BC /* initializeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD5BA30396C3443EB27E94E /* initializeTest.swift */; };
+		D258981DC17C96D40007A941 /* anyobjectClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2589DE202BB4CC760926F68 /* anyobjectClass.swift */; };
 		D25899E483B7115E73618E30 /* subscriptTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2589B4B182053B3509CA035 /* subscriptTest.swift */; };
 		D2589D99558872D9EB2C0F7C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258943109CCD08534981EF6 /* main.swift */; };
 /* End PBXBuildFile section */
@@ -34,6 +35,7 @@
 		7AD5BF10818B33E02C50937D /* optionalChain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = optionalChain.swift; sourceTree = "<group>"; };
 		D258943109CCD08534981EF6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D2589B4B182053B3509CA035 /* subscriptTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = subscriptTest.swift; sourceTree = "<group>"; };
+		D2589DE202BB4CC760926F68 /* anyobjectClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = anyobjectClass.swift; sourceTree = "<group>"; };
 		D2589FFD57BA8C1BC9EF0A33 /* swiftLearn */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = swiftLearn; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -73,6 +75,7 @@
 				7AD5BA30396C3443EB27E94E /* initializeTest.swift */,
 				7AD5B7C6420FF74D4E0C8EEA /* classClosure.swift */,
 				7AD5BF10818B33E02C50937D /* optionalChain.swift */,
+				D2589DE202BB4CC760926F68 /* anyobjectClass.swift */,
 			);
 			path = swiftLearn;
 			sourceTree = "<group>";
@@ -133,6 +136,7 @@
 				7AD5BE6A49CC694E558B48BC /* initializeTest.swift in Sources */,
 				7AD5B2E837617E19373AFD23 /* classClosure.swift in Sources */,
 				7AD5B6D9D68E949EC0C6C3A3 /* optionalChain.swift in Sources */,
+				D258981DC17C96D40007A941 /* anyobjectClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
