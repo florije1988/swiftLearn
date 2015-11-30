@@ -2,7 +2,7 @@ use_frameworks!
 
 pod 'SQLite.swift',
     git: 'https://github.com/stephencelis/SQLite.swift.git'
-support
-# instead, for SQLCipher
+
+# instead, for SQLCipher support
 pod 'SQLiteCipher.swift',
     git: 'https://github.com/stephencelis/SQLite.swift.git'
