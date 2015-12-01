@@ -1,8 +1,7 @@
 use_frameworks!
 
-pod 'SQLite.swift',
-    git: 'https://github.com/stephencelis/SQLite.swift.git'
+# pod 'SQLite.swift'
+pod 'FMDB'
 
 # instead, for SQLCipher support
-pod 'SQLiteCipher.swift',
-    git: 'https://github.com/stephencelis/SQLite.swift.git'
+# pod 'SQLiteCipher.swift'
