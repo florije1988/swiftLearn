@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10E7E2ED1A9FFBE40042044C /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A059CD8B5690EC0653097F3E /* Pods.framework */; };
 		7AD5B2E837617E19373AFD23 /* classClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD5B7C6420FF74D4E0C8EEA /* classClosure.swift */; };
 		7AD5B2FC0F28E3AE5FF48D1B /* inheritTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD5B2C4F56B9AD75126E821 /* inheritTest.swift */; };
 		7AD5B6D9D68E949EC0C6C3A3 /* optionalChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD5BF10818B33E02C50937D /* optionalChain.swift */; };
 		7AD5BE6A49CC694E558B48BC /* initializeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD5BA30396C3443EB27E94E /* initializeTest.swift */; };
+		D25890D0E749EE070B5B3244 /* readme.md in Sources */ = {isa = PBXBuildFile; fileRef = D2589F43E9AD9EAD2CA5D3F7 /* readme.md */; };
 		D258981DC17C96D40007A941 /* anyobjectClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2589DE202BB4CC760926F68 /* anyobjectClass.swift */; };
 		D25899E483B7115E73618E30 /* subscriptTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2589B4B182053B3509CA035 /* subscriptTest.swift */; };
 		D2589D99558872D9EB2C0F7C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258943109CCD08534981EF6 /* main.swift */; };
@@ -29,14 +31,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		037DA71569279779B336A7EB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		2DFD6E927C961D57DCAC509C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		7AD5B2C4F56B9AD75126E821 /* inheritTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = inheritTest.swift; sourceTree = "<group>"; };
 		7AD5B7C6420FF74D4E0C8EEA /* classClosure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = classClosure.swift; sourceTree = "<group>"; };
 		7AD5BA30396C3443EB27E94E /* initializeTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = initializeTest.swift; sourceTree = "<group>"; };
 		7AD5BF10818B33E02C50937D /* optionalChain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = optionalChain.swift; sourceTree = "<group>"; };
+		A059CD8B5690EC0653097F3E /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D258943109CCD08534981EF6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D2589B4B182053B3509CA035 /* subscriptTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = subscriptTest.swift; sourceTree = "<group>"; };
 		D2589DE202BB4CC760926F68 /* anyobjectClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = anyobjectClass.swift; sourceTree = "<group>"; };
 		D2589E17BC2C367918D1C780 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		D2589F43E9AD9EAD2CA5D3F7 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		D2589FFD57BA8C1BC9EF0A33 /* swiftLearn */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = swiftLearn; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -45,18 +51,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10E7E2ED1A9FFBE40042044C /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A4118D309CF54CA905E216D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				037DA71569279779B336A7EB /* Pods.debug.xcconfig */,
+				2DFD6E927C961D57DCAC509C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D25890F45EECFEBC99514FC9 = {
 			isa = PBXGroup;
 			children = (
 				D258950EE0222D4055B3AB47 /* Products */,
 				D258964AEA7DC8E573124609 /* swiftLearn */,
 				D2589E17BC2C367918D1C780 /* Podfile */,
+				A4118D309CF54CA905E216D2 /* Pods */,
+				F45158E91D6845E332F7578F /* Frameworks */,
+				D2589F43E9AD9EAD2CA5D3F7 /* readme.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,6 +101,14 @@
 			path = swiftLearn;
 			sourceTree = "<group>";
 		};
+		F45158E91D6845E332F7578F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A059CD8B5690EC0653097F3E /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,9 +116,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2589A1423F3AAFC28E1C393 /* Build configuration list for PBXNativeTarget "swiftLearn" */;
 			buildPhases = (
+				06FAE4580BDA262D27188DDA /* Check Pods Manifest.lock */,
 				D2589E4C955EDDCC1C5EF449 /* Sources */,
 				D258987B5284B06E440DF31B /* Frameworks */,
 				D25893944F4D3D459ED52CB2 /* CopyFiles */,
+				826C4C75CB25DEED3728FA46 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,6 +156,39 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06FAE4580BDA262D27188DDA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		826C4C75CB25DEED3728FA46 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D2589E4C955EDDCC1C5EF449 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -139,6 +201,7 @@
 				7AD5B2E837617E19373AFD23 /* classClosure.swift in Sources */,
 				7AD5B6D9D68E949EC0C6C3A3 /* optionalChain.swift in Sources */,
 				D258981DC17C96D40007A941 /* anyobjectClass.swift in Sources */,
+				D25890D0E749EE070B5B3244 /* readme.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +290,7 @@
 		};
 		D258989D66B4FEBADB8553DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 037DA71569279779B336A7EB /* Pods.debug.xcconfig */;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -234,6 +298,7 @@
 		};
 		D2589963395DE296A3B704F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DFD6E927C961D57DCAC509C /* Pods.release.xcconfig */;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -258,6 +323,7 @@
 				D2589963395DE296A3B704F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
